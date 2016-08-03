@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="388e1635-fe9f-4b2c-ba35-ea9b580b5760" name="Default" comment="" />
+    <list default="true" id="388e1635-fe9f-4b2c-ba35-ea9b580b5760" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conecta.php" afterPath="$PROJECT_DIR$/conecta.php" />
+    </list>
     <ignored path="loja.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -58,23 +60,40 @@
             <state relative-caret-position="170">
               <caret line="10" column="91" selection-start-line="10" selection-start-column="91" selection-end-line="10" selection-end-column="91" />
               <folding>
-                <marker date="1467239655391" expanded="true" signature="106:128" placeholder="select * fro... produtos" />
-                <marker date="1467239655391" expanded="true" signature="332:421" placeholder="insert into produtos... " />
-                <marker date="1467239655391" expanded="true" signature="522:554" placeholder="delete from " />
-                <marker date="1467239655391" expanded="true" signature="522:559" placeholder="delete from " />
+                <marker date="1470259196331" expanded="true" signature="106:128" placeholder="select * fro... produtos" />
+                <marker date="1470259196331" expanded="true" signature="332:421" placeholder="insert into produtos... " />
+                <marker date="1470259196331" expanded="true" signature="522:554" placeholder="delete from " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="adiciona-produto.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="adiciona-produto.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/adiciona-produto.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
               <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-              <folding>
-                <marker date="1467240058232" expanded="true" signature="185:521" placeholder="insert into produtos... " />
-              </folding>
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="conecta.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/conecta.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="46" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.inc.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../phpMyAdmin/config.inc.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -88,6 +107,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -96,7 +118,6 @@
         <option value="$PROJECT_DIR$/sobre.php" />
         <option value="$PROJECT_DIR$/css/index.css" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/conecta.php" />
         <option value="$PROJECT_DIR$/cabecalho.php" />
         <option value="$PROJECT_DIR$/css/loja.css" />
         <option value="$PROJECT_DIR$/remove-produto.php" />
@@ -104,6 +125,7 @@
         <option value="$PROJECT_DIR$/produto-lista.php" />
         <option value="$PROJECT_DIR$/produto-formulario.php" />
         <option value="$PROJECT_DIR$/adiciona-produto.php" />
+        <option value="$PROJECT_DIR$/conecta.php" />
       </list>
     </option>
   </component>
@@ -150,38 +172,24 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="loja" />
+              <option name="myItemId" value="loja-PHP-SQL-TRAINING-" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="loja" />
+              <option name="myItemId" value="loja-PHP-SQL-TRAINING-" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="loja" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="loja" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="loja" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imagem" />
+              <option name="myItemId" value="loja-PHP-SQL-TRAINING-" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -192,12 +200,13 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\loja\imagem" />
-      <recent name="C:\xampp\htdocs\loja\css" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\loja\imagem" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\loja-PHP-SQL-TRAINING-\fonts" />
+      <recent name="C:\xampp\htdocs\loja\imagem" />
+      <recent name="C:\xampp\htdocs\loja\css" />
     </key>
   </component>
   <component name="RunManager">
@@ -253,15 +262,16 @@
       <workItem from="1467069025504" duration="5005000" />
       <workItem from="1467221624274" duration="8179000" />
       <workItem from="1469569076977" duration="598000" />
+      <workItem from="1470259379632" duration="47000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26645000" />
+    <option name="totallyTimeSpent" value="26692000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1380" height="735" extended-state="1" />
-    <editor active="false" />
+    <frame x="-7" y="0" width="1380" height="735" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24340177" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -311,10 +321,9 @@
         <state relative-caret-position="170">
           <caret line="10" column="91" selection-start-line="10" selection-start-column="91" selection-end-line="10" selection-end-column="91" />
           <folding>
-            <marker date="1467239655391" expanded="true" signature="106:128" placeholder="select * fro... produtos" />
-            <marker date="1467239655391" expanded="true" signature="332:421" placeholder="insert into produtos... " />
-            <marker date="1467239655391" expanded="true" signature="522:554" placeholder="delete from " />
-            <marker date="1467239655391" expanded="true" signature="522:559" placeholder="delete from " />
+            <marker date="1470259196331" expanded="true" signature="106:128" placeholder="select * fro... produtos" />
+            <marker date="1470259196331" expanded="true" signature="332:421" placeholder="insert into produtos... " />
+            <marker date="1470259196331" expanded="true" signature="522:554" placeholder="delete from " />
           </folding>
         </state>
       </provider>
@@ -323,9 +332,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1467240058232" expanded="true" signature="185:521" placeholder="insert into produtos... " />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -355,9 +362,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
-          <folding>
-            <marker date="1467240058232" expanded="true" signature="185:521" placeholder="insert into produtos... " />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -401,9 +406,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="65" selection-start-line="16" selection-start-column="65" selection-end-line="16" selection-end-column="65" />
-          <folding>
-            <marker date="1467240058232" expanded="true" signature="185:521" placeholder="insert into produtos... " />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -447,9 +450,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="65" selection-start-line="16" selection-start-column="65" selection-end-line="16" selection-end-column="65" />
-          <folding>
-            <marker date="1467240058232" expanded="true" signature="185:521" placeholder="insert into produtos... " />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -486,9 +487,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1467240058232" expanded="true" signature="185:521" placeholder="insert into produtos... " />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -525,9 +524,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1467240058232" expanded="true" signature="185:521" placeholder="insert into produtos... " />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -564,9 +561,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1467240058232" expanded="true" signature="185:521" placeholder="insert into produtos... " />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -589,13 +584,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../phpMyAdmin/config.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -635,13 +623,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conecta.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cabecalho.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -649,18 +630,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/produto-formulario.php">
+    <entry file="file://$PROJECT_DIR$/../../phpMyAdmin/config.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="80" selection-start-line="2" selection-start-column="80" selection-end-line="2" selection-end-column="80" />
+        <state relative-caret-position="374">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/produto-lista.php">
+    <entry file="file://$PROJECT_DIR$/banco-produto.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
+        <state relative-caret-position="170">
+          <caret line="10" column="91" selection-start-line="10" selection-start-column="91" selection-end-line="10" selection-end-column="91" />
+          <folding>
+            <marker date="1470259196331" expanded="true" signature="106:128" placeholder="select * fro... produtos" />
+            <marker date="1470259196331" expanded="true" signature="332:421" placeholder="insert into produtos... " />
+            <marker date="1470259196331" expanded="true" signature="522:554" placeholder="delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/produto-formulario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="80" selection-start-line="2" selection-start-column="80" selection-end-line="2" selection-end-column="80" />
           <folding />
         </state>
       </provider>
@@ -673,16 +666,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/banco-produto.php">
+    <entry file="file://$PROJECT_DIR$/produto-lista.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="91" selection-start-line="10" selection-start-column="91" selection-end-line="10" selection-end-column="91" />
-          <folding>
-            <marker date="1467239655391" expanded="true" signature="106:128" placeholder="select * fro... produtos" />
-            <marker date="1467239655391" expanded="true" signature="332:421" placeholder="insert into produtos... " />
-            <marker date="1467239655391" expanded="true" signature="522:554" placeholder="delete from " />
-            <marker date="1467239655391" expanded="true" signature="522:559" placeholder="delete from " />
-          </folding>
+        <state relative-caret-position="357">
+          <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -690,9 +678,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-          <folding>
-            <marker date="1467240058232" expanded="true" signature="185:521" placeholder="insert into produtos... " />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conecta.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="46" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>
