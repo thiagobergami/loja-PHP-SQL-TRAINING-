@@ -25,11 +25,6 @@ $categorias = listaCategorias($conexao);
                         </div>
                 </div>
                 <div class="form-group">
-                        <div>
-                                <input type="checkbox" name="usado" value="true">Usado
-                        </div>
-                </div>
-                <div class="form-group">
                         <label class="col-sm-2 control-label" name="categorias">Categoria</label>
                         <div class="col-sm-8">
                                 <select name="categoria_id" class="form-control">
@@ -39,6 +34,11 @@ $categorias = listaCategorias($conexao);
                                         </option>
                                 <?php endforeach ?>
                                 </select>
+                        </div>
+                </div>
+                <div class="form-group">
+                        <div>
+                                <input type="checkbox" name="usado" value="true">Usado
                         </div>
                 </div>
                 <div class="form-group">
