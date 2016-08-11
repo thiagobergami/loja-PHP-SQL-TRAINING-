@@ -5,13 +5,15 @@
     $nome = $_POST["nome"];
     $preco = $_POST["preco"];
     $descricao = $_POST['descricao'];
+    $categoria_id = $_POST['categoria_id'];
+    $usado = $_POST['usado'];
 
-    if(insereProduto($conexao,$nome, $preco, $descricao)){ ?>
+    if(insereProduto($conexao,$nome, $preco, $descricao, $categoria_id, $usado)){ ?>
         <p class="text-success">Produto <?= $nome?>, <?= $preco?> adicionado com sucesso!.</p>
     <?php }else{
         $msg = mysqli_error($conexao);
         ?>
-        <p class="text-danger">Produto <?= $nome?>, não foi  adicionado:<?= $msg?></p>
+        <p class="text-danger">Produto <?= $nome?>, não foi adicionado:<?= $msg?></p>
     <?php
 
     }
