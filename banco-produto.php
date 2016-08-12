@@ -20,3 +20,8 @@ function removeProduto($conexao, $id){
     $query = "delete from produtos where id = {$id}";
     return mysqli_query($conexao, $query);
 }
+function alteraProduto($conexao, $id, $nome, $preco, $descricao, $categoria_id, $usado) {
+    $query = "update produtos set nome = '{$nome}', preco = {$preco}, descricao = '{$descricao}', 
+        categoria_id= {$categoria_id}, usado = {$usado} where id = '{$id}'";
+    return mysqli_query($conexao, $query);
+}
