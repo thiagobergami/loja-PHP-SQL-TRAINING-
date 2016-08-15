@@ -7,9 +7,9 @@
 <?php if(isset($_GET["login"]) && $_GET["login"]==false){?>
     <p class="alert-danger">Usuário ou senha invalido</p>
 <?php }?>
-<?php if(isset($_GET["falhaDeSeguranca"]) && $_GET["falhaDeSeguranca"]==true){ ?>
-    <p class="alert-danger">Você não tem acesso a essa funcionalidade</p>
-<?php }?>
+<?php if(isset($_GET["falhaDeSeguranca"]) && $_GET["falhaDeSeguranca"]==true){
+    header("location:error.php");
+    }?>
         <div class="centro">
             <h1>Bem vindo!</h1>
         </div>
