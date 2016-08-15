@@ -1,15 +1,20 @@
-<?php include("cabecalho.php");?>
+<?php include("cabecalho.php");
+      include ("logica-usuario.php");
+?>
 <?php if(isset($_GET["login"]) && $_GET["login"]==true) {?>
     <p class="alert-success">Logado com sucesso!</p>
 <?php }?>
 <?php if(isset($_GET["login"]) && $_GET["login"]==false){?>
     <p class="alert-danger">Usuário ou senha invalido</p>
 <?php }?>
+<?php if(isset($_GET["falhaDeSeguranca"]) && $_GET["falhaDeSeguranca"]==true){ ?>
+    <p class="alert-danger">Você não tem acesso a essa funcionalidade</p>
+<?php }?>
         <div class="centro">
             <h1>Bem vindo!</h1>
         </div>
-<?php if(isset($_COOKIE["usuario_logado"])){?>
-    <p class="text-success">Você está logado como <?=$_COOKIE["usuario_logado"]?>.</p>
+<?php if(usuarioEstaLogado()){?>
+    <p class="text-success">Você está logado como <?= loginUsuario()?>.</p>
 <?php }else { ?>
         <div>
             <h2>login</h2>

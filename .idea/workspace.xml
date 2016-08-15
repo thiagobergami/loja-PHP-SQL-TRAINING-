@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="388e1635-fe9f-4b2c-ba35-ea9b580b5760" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logica-usuario.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/adiciona-produto.php" afterPath="$PROJECT_DIR$/adiciona-produto.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login.php" afterPath="$PROJECT_DIR$/login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/produto-formulario.php" afterPath="$PROJECT_DIR$/produto-formulario.php" />
     </list>
     <ignored path="loja.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,52 +29,52 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="banco-produto.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/banco-produto.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="76" selection-start-line="24" selection-start-column="76" selection-end-line="24" selection-end-column="76" />
-              <folding>
-                <marker date="1470961971408" expanded="true" signature="106:155" placeholder="select * fro... produtos" />
-                <marker date="1470961971408" expanded="true" signature="106:204" placeholder="select p.*,c... produtos" />
-                <marker date="1470961971408" expanded="true" signature="430:569" placeholder="insert into produtos... " />
-                <marker date="1470961971408" expanded="true" signature="669:703" placeholder="select * fro... produtos" />
-                <marker date="1470961971408" expanded="true" signature="669:708" placeholder="select * fro... produtos" />
-                <marker date="1470961971408" expanded="true" signature="858:890" placeholder="delete from " />
-                <marker date="1470961971408" expanded="true" signature="1047:1206" placeholder="update produ... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+            <state relative-caret-position="204">
+              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="produto-formulario.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/produto-formulario.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+            <state relative-caret-position="51">
+              <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="banco-usuario.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/banco-usuario.php">
+      <file leaf-file-name="adiciona-produto.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/adiciona-produto.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="82" selection-start-line="3" selection-start-column="82" selection-end-line="3" selection-end-column="82" />
-              <folding>
-                <marker date="1471210677615" expanded="true" signature="98:168" placeholder="select * fro... usuarios" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logica-usuario.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/logica-usuario.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -99,16 +102,17 @@
         <option value="$PROJECT_DIR$/../../phpMyAdmin/config.inc.php" />
         <option value="$PROJECT_DIR$/remove-produto.php" />
         <option value="$PROJECT_DIR$/banco-categoria.php" />
-        <option value="$PROJECT_DIR$/adiciona-produto.php" />
-        <option value="$PROJECT_DIR$/produto-formulario.php" />
         <option value="$PROJECT_DIR$/produto-lista.php" />
         <option value="$PROJECT_DIR$/altera-produto.php" />
         <option value="$PROJECT_DIR$/banco-produto.php" />
         <option value="$PROJECT_DIR$/produto-altera-formulario.php" />
         <option value="$PROJECT_DIR$/conecta.php" />
         <option value="$PROJECT_DIR$/banco-usuario.php" />
+        <option value="$PROJECT_DIR$/adiciona-produto.php" />
+        <option value="$PROJECT_DIR$/produto-formulario.php" />
         <option value="$PROJECT_DIR$/login.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/logica-usuario.php" />
       </list>
     </option>
   </component>
@@ -159,6 +163,16 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="loja" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loja" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loja" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -241,12 +255,12 @@
       <workItem from="1470925675859" duration="14129000" />
       <workItem from="1471208135050" duration="4316000" />
       <workItem from="1471296010155" duration="149000" />
-      <workItem from="1471296324368" duration="751000" />
+      <workItem from="1471296324368" duration="4853000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48986000" />
+    <option name="totallyTimeSpent" value="53088000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
@@ -287,13 +301,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/produto-formulario.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/adiciona-produto.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -568,40 +575,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/adiciona-produto.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/produto-formulario.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/produto-altera-formulario.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/banco-produto.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="76" selection-start-line="24" selection-start-column="76" selection-end-line="24" selection-end-column="76" />
-          <folding>
-            <marker date="1470961971408" expanded="true" signature="106:155" placeholder="select * fro... produtos" />
-            <marker date="1470961971408" expanded="true" signature="106:204" placeholder="select p.*,c... produtos" />
-            <marker date="1470961971408" expanded="true" signature="430:569" placeholder="insert into produtos... " />
-            <marker date="1470961971408" expanded="true" signature="669:703" placeholder="select * fro... produtos" />
-            <marker date="1470961971408" expanded="true" signature="669:708" placeholder="select * fro... produtos" />
-            <marker date="1470961971408" expanded="true" signature="858:890" placeholder="delete from " />
-            <marker date="1470961971408" expanded="true" signature="1047:1206" placeholder="update produ... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -626,6 +603,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/banco-produto.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="76" selection-start-line="24" selection-start-column="76" selection-end-line="24" selection-end-column="76" />
+          <folding>
+            <marker date="1470961971408" expanded="true" signature="106:155" placeholder="select * fro... produtos" />
+            <marker date="1470961971408" expanded="true" signature="106:204" placeholder="select p.*,c... produtos" />
+            <marker date="1470961971408" expanded="true" signature="430:569" placeholder="insert into produtos... " />
+            <marker date="1470961971408" expanded="true" signature="669:703" placeholder="select * fro... produtos" />
+            <marker date="1470961971408" expanded="true" signature="669:708" placeholder="select * fro... produtos" />
+            <marker date="1470961971408" expanded="true" signature="858:890" placeholder="delete from " />
+            <marker date="1470961971408" expanded="true" signature="1047:1206" placeholder="update produ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/banco-usuario.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -636,18 +629,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/adiciona-produto.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        <state relative-caret-position="204">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/produto-formulario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        <state relative-caret-position="51">
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logica-usuario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
           <folding />
         </state>
       </provider>
