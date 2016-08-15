@@ -8,6 +8,9 @@
         <div class="centro">
             <h1>Bem vindo!</h1>
         </div>
+<?php if(isset($_COOKIE["usuario_logado"])){?>
+    <p class="text-success">Você está logado como <?=$_COOKIE["usuario_logado"]?>.</p>
+<?php }else { ?>
         <div>
             <h2>login</h2>
                 <form action="login.php" method="post">
@@ -26,4 +29,5 @@
                     </table>
                 </form>
         </div>
+<?php }?>
 <?php include("rodape.php");?>
